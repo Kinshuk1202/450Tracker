@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ticketid"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingTop="5pt"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp">
+
+        <TextView
+            android:id="@+id/DStv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5pt"
+            android:layout_marginTop="3pt"
+            android:layout_weight="1"
+            android:text="@string/topic"
+            android:textColor="#000000"
+            android:textSize="16sp">
+
+        </TextView>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/linkgoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_marginStart="4pt"
+            android:text="@string/link"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <CheckBox
+            android:id="@+id/Gobtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/DStv"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </LinearLayout>
+
+</LinearLayout>

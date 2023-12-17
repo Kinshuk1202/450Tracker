@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">450Tracker</string>
+    <string name="topic">Array</string>
+    <string name="reset">RESET</string>
+    <string name="search_on_gfg">Open GFG</string>
+    <string name="search_on_leetcode">Open LeetCode</string>
+    <string name="reset_all_questions">Reset all questions</string>
+    <string name="link">Link</string>
+</resources>
